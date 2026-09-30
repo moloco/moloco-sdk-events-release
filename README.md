@@ -32,9 +32,11 @@ there, not in this source repo):
 
 ### CocoaPods
 
-The podspec is published to Moloco's private spec repo, so add it as a source:
+The podspec is published to Moloco's spec repo. Add it as a source — and keep the
+CocoaPods trunk source too, because naming any `source` turns off the implicit default:
 
 ```ruby
+source 'https://cdn.cocoapods.org/'
 source 'https://github.com/moloco/moloco-sdk-events-release.git'
 
 pod 'MolocoEventsSDK', '~> 0.1'
@@ -113,7 +115,7 @@ MolocoEventsSDK.trackEvent(name: "level_complete", data: ["level": 4, "score": 1
 Moloco.MolocoEventsSDK.TrackEvent("level_complete", new Dictionary<string, object> { {"level", 4} });
 ```
 
-Rules (events that break a rule are dropped — logged in DEBUG, never a crash):
+Rules (events that break a rule are dropped and logged; the SDK never crashes on them):
 
 - **name** must match `^[a-zA-Z][a-zA-Z0-9_]{0,63}$` (start with a letter; letters,
   digits, underscore; ≤ 64 chars)
@@ -124,9 +126,17 @@ Rules (events that break a rule are dropped — logged in DEBUG, never a crash):
 ## Verifying your integration
 
 The SDK logs its lifecycle — init result, and events queued / sent / dropped — via
-Apple unified logging (`os.log`, subsystem `com.moloco.eventssdk`). Filter Console.app
-or Xcode's console by that subsystem to confirm init succeeds and events flow (and to
-keep SDK output out of the rest of your logs).
+Apple unified logging (`os.log`, subsystem `com.moloco.eventssdk`) at the **info** and
+**debug** levels. Both consoles hide those levels unless you opt in:
+
+- **Xcode console:** filter by `com.moloco.eventssdk`; if nothing appears, set the
+  console's log level to include Info and Debug.
+- **Console.app:** enable *Action → Include Info Messages* and *Include Debug Messages*,
+  then filter by the subsystem.
+- **Terminal:** `log stream --level debug --predicate 'subsystem == "com.moloco.eventssdk"'`
+
+A healthy launch shows `init success; state=ready, ingestionUrl=…` followed by
+`event=… delivered (HTTP 200)` for each event.
 
 ## Support
 
