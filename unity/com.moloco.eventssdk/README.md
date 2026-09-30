@@ -8,13 +8,13 @@ supports custom events. Off-iOS (Editor, Android) the API compiles and no-ops.
 Package Manager → **+** → **Add package from git URL**:
 
 ```
-https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.0
+https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.1
 ```
 
 Or in `Packages/manifest.json`:
 
 ```json
-"com.moloco.eventssdk": "https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.0"
+"com.moloco.eventssdk": "https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.1"
 ```
 
 Declared minimum is Unity 2021.3 (`package.json`); verified on Unity 6000.3. Unity

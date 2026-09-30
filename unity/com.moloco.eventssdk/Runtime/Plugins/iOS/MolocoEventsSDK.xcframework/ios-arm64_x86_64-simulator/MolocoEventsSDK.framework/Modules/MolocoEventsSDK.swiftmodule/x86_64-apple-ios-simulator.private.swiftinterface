@@ -28,12 +28,6 @@ extension Foundation.NSLock {
 @_inheritsConvenienceInitializers @objc(MolocoEventsSDK) final public class MolocoEventsSDK : ObjectiveC.NSObject {
   @objc public static func initialize(appKey: Swift.String)
   @objc public static func trackEvent(name: Swift.String, data: [Swift.String : Any]?)
-  @available(iOS 13.0, *)
-  @objc public static func _setLogHandlerForTesting(_ handler: ((Swift.String) -> Swift.Void)?)
-  @available(iOS 13.0, *)
-  @objc public static func _currentStateForTesting() -> Swift.String
-  @available(iOS 13.0, *)
-  @objc public static func _lastSerializedPayloadForTesting() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }

@@ -1,6 +1,6 @@
 {
   "name": "com.moloco.eventssdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Moloco Events SDK",
   "description": "Moloco Events SDK for Unity (iOS). Auto-collected install/session/in-app-purchase events plus custom events.",
   "unity": "2021.3",

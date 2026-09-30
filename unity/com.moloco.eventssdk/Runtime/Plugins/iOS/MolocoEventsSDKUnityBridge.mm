@@ -82,9 +82,12 @@ const char* _MolocoEventsSDK_currentState(void) {
 /// `Application.logMessageReceived` subscriber picks it up and renders it
 /// into the on-device log view, matching SwiftDemo behavior.
 ///
-/// The SDK's `_setLogHandlerForTesting:` is always compiled in (the SDK ships
-/// only for testing, so the hook is not stripped from release). We still use a
-/// runtime selector check rather than a link-time symbol so this bridge stays
+/// `_setLogHandlerForTesting:` is internal to the SDK: absent from the public
+/// Swift interface and the generated header, present in the Objective-C runtime
+/// because it is `@objc`. The selector check below is what makes this call
+/// degrade gracefully; `_MolocoEventsSDK_currentState` above calls its hook
+/// unconditionally through the forward declaration and would crash if the SDK
+/// ever dropped it — the release build asserts both are present. The check keeps this bridge
 /// resilient if a future SDK build ever drops the hook — the install simply
 /// becomes a no-op instead of failing to link.
 void _MolocoEventsSDK_installUnityLogMirror(void) {

@@ -281,112 +281,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "_setLogHandlerForTesting",
-            "printedName": "_setLogHandlerForTesting(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK(cm)_setLogHandlerForTesting:",
-            "mangledName": "$s15MolocoEventsSDKAAC24_setLogHandlerForTestingyyySScSgFZ",
-            "moduleName": "MolocoEventsSDK",
-            "static": true,
-            "intro_iOS": "13.0",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "Available",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "_currentStateForTesting",
-            "printedName": "_currentStateForTesting()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK(cm)_currentStateForTesting",
-            "mangledName": "$s15MolocoEventsSDKAAC23_currentStateForTestingSSyFZ",
-            "moduleName": "MolocoEventsSDK",
-            "static": true,
-            "intro_iOS": "13.0",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "Available",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "_lastSerializedPayloadForTesting",
-            "printedName": "_lastSerializedPayloadForTesting()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK(cm)_lastSerializedPayloadForTesting",
-            "mangledName": "$s15MolocoEventsSDKAAC32_lastSerializedPayloadForTestingSSyFZ",
-            "moduleName": "MolocoEventsSDK",
-            "static": true,
-            "intro_iOS": "13.0",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "Available",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -786,7 +680,7 @@
       "kind": "StringLiteral",
       "offset": 244,
       "length": 7,
-      "value": "\"0.1.0\""
+      "value": "\"0.1.1\""
     },
     {
       "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Core\/SdkCore.swift",

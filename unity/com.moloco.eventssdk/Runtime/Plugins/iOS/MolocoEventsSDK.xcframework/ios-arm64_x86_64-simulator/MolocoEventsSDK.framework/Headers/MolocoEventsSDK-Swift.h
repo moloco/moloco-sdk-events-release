@@ -382,28 +382,6 @@ SWIFT_CLASS_NAMED("MolocoEventsSDK")
 /// after <code>initialize()</code> isn’t lost to a task-ordering race). Dropped if
 /// <code>collectionEnabled</code> or <code>customEventsEnabled</code> is off, or if name/data is invalid.
 + (void)trackEventWithName:(NSString * _Nonnull)name data:(NSDictionary<NSString *, id> * _Nullable)data;
-/// Demo-app hook: subscribe to SDK internal log output. The handler is
-/// invoked from the SDK’s logger on whatever thread issues the log, so
-/// callers must dispatch to main if they touch UI. Pass <code>nil</code> to clear.
-/// <code>@objc</code>-exposed so the Unity bridge <code>.mm</code> can install a block that
-/// forwards messages to <code>UnitySendMessage</code>. The ObjC signature is
-/// <code>+ (void)_setLogHandlerForTesting:(void (^_Nullable)(NSString *))handler</code>.
-+ (void)_setLogHandlerForTesting:(void (^ _Nullable)(NSString * _Nonnull))handler SWIFT_AVAILABILITY(ios,introduced=13.0);
-/// Demo-app hook: returns a multi-line snapshot of current SDK state for
-/// surfacing in the demo UI. Format is best-effort human-readable, not
-/// stable across versions.
-/// All config fields are read from a single atomic <code>fullSnapshot()</code> so
-/// the output never mixes pre- / post-<code>apply</code> values across a concurrent
-/// re-init.
-/// <code>@objc</code>-exposed so the Unity bridge <code>.mm</code> can read it and forward to
-/// the demo’s log mirror.
-+ (NSString * _Nonnull)_currentStateForTesting SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=13.0);
-/// Demo-app hook: returns the most recently serialized event body (the exact
-/// JSON the SDK POSTs), or a placeholder if none yet. Lets QA inspect the
-/// client-side payload in-app without a proxy (test plan §8 #2).
-/// <code>@objc</code>-exposed for the Unity bridge. Non-optional return keeps the ObjC
-/// signature simple.
-+ (NSString * _Nonnull)_lastSerializedPayloadForTesting SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=13.0);
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -799,28 +777,6 @@ SWIFT_CLASS_NAMED("MolocoEventsSDK")
 /// after <code>initialize()</code> isn’t lost to a task-ordering race). Dropped if
 /// <code>collectionEnabled</code> or <code>customEventsEnabled</code> is off, or if name/data is invalid.
 + (void)trackEventWithName:(NSString * _Nonnull)name data:(NSDictionary<NSString *, id> * _Nullable)data;
-/// Demo-app hook: subscribe to SDK internal log output. The handler is
-/// invoked from the SDK’s logger on whatever thread issues the log, so
-/// callers must dispatch to main if they touch UI. Pass <code>nil</code> to clear.
-/// <code>@objc</code>-exposed so the Unity bridge <code>.mm</code> can install a block that
-/// forwards messages to <code>UnitySendMessage</code>. The ObjC signature is
-/// <code>+ (void)_setLogHandlerForTesting:(void (^_Nullable)(NSString *))handler</code>.
-+ (void)_setLogHandlerForTesting:(void (^ _Nullable)(NSString * _Nonnull))handler SWIFT_AVAILABILITY(ios,introduced=13.0);
-/// Demo-app hook: returns a multi-line snapshot of current SDK state for
-/// surfacing in the demo UI. Format is best-effort human-readable, not
-/// stable across versions.
-/// All config fields are read from a single atomic <code>fullSnapshot()</code> so
-/// the output never mixes pre- / post-<code>apply</code> values across a concurrent
-/// re-init.
-/// <code>@objc</code>-exposed so the Unity bridge <code>.mm</code> can read it and forward to
-/// the demo’s log mirror.
-+ (NSString * _Nonnull)_currentStateForTesting SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=13.0);
-/// Demo-app hook: returns the most recently serialized event body (the exact
-/// JSON the SDK POSTs), or a placeholder if none yet. Lets QA inspect the
-/// client-side payload in-app without a proxy (test plan §8 #2).
-/// <code>@objc</code>-exposed for the Unity bridge. Non-optional return keeps the ObjC
-/// signature simple.
-+ (NSString * _Nonnull)_lastSerializedPayloadForTesting SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=13.0);
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

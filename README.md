@@ -4,7 +4,7 @@ A lightweight, privacy-first native event tracking SDK for iOS. Enables advertis
 to share first-party in-app event signals — installs, sessions, in-app purchases,
 and custom events — directly with Moloco for improved campaign optimization.
 
-> **Status:** v0.1.0. Public API is `initialize(appKey:)` and `trackEvent(name:data:)`.
+> **Status:** v0.1.1. Public API is `initialize(appKey:)` and `trackEvent(name:data:)`.
 
 ## Requirements
 
@@ -27,7 +27,7 @@ Add the distribution repo to `Package.swift` (the signed binary is published
 there, not in this source repo):
 
 ```swift
-.package(url: "https://github.com/moloco/moloco-sdk-events-release.git", from: "0.1.0")
+.package(url: "https://github.com/moloco/moloco-sdk-events-release.git", from: "0.1.1")
 ```
 
 ### CocoaPods
@@ -47,13 +47,13 @@ pod 'MolocoEventsSDK', '~> 0.1'
 In Unity, open **Window → Package Manager → + → Add package from git URL** and enter:
 
 ```
-https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.0
+https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.1
 ```
 
 Or add it to `Packages/manifest.json`:
 
 ```json
-"com.moloco.eventssdk": "https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.0"
+"com.moloco.eventssdk": "https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.1"
 ```
 
 The package vendors `MolocoEventsSDK.xcframework` plus the C# wrapper, and embeds the
@@ -61,7 +61,7 @@ framework into your Xcode project on build. Requires Unity 2021.3+.
 
 Unity resolves git packages with your machine's `git`, so it must be able to
 authenticate to GitHub. If you use SSH keys rather than an HTTPS credential helper,
-use `ssh://git@github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.0`
+use `ssh://git@github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.1`
 instead.
 
 ## Usage

@@ -6,27 +6,27 @@
 	<dict>
 		<key>ios-arm64/MolocoEventsSDK.framework/Headers/MolocoEventsSDK-Swift.h</key>
 		<data>
-		3DaYFq34pjbkLraTKOb6uV7DA54=
+		FHuXh3Nlr0Xu86YoNOofjnywO+o=
 		</data>
 		<key>ios-arm64/MolocoEventsSDK.framework/Info.plist</key>
 		<data>
-		D3SX0lGLeAlwVMmOLErpbdiQnJo=
+		gIEIB2rpURIBNOQAxKU3PvyU23Y=
 		</data>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		iOYICTDH3v3De9muwsUw/EEJ5AI=
+		p8+AWZ8s7/uV5egqaP3zWzK+HZw=
 		</data>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		GcpcuFwYQODy3lhsQq2BGNIJX0c=
+		nTbMDpXzqUnWuYKml92SihOz2KM=
 		</data>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		xFnU4f+bqcn8QpyGJ5wg9V2Sm10=
+		Ik6eONh3jmXRgr9VEfWQKvRlQUA=
 		</data>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		GcpcuFwYQODy3lhsQq2BGNIJX0c=
+		nTbMDpXzqUnWuYKml92SihOz2KM=
 		</data>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>ios-arm64/MolocoEventsSDK.framework/MolocoEventsSDK</key>
 		<data>
-		hZoiARKwenxQEl3GDREcMqZUPxo=
+		dVPQX516BPUcdqid5q8g4FGqvo4=
 		</data>
 		<key>ios-arm64/MolocoEventsSDK.framework/MolocoEventsSDK_MolocoEventsSDK.bundle/Info.plist</key>
 		<data>
-		p7VjVfRV0iEA1x3m9dfzygM1n/s=
+		Y/N7RVQ1AK1K+//cqgrbj+uCAE8=
 		</data>
 		<key>ios-arm64/MolocoEventsSDK.framework/MolocoEventsSDK_MolocoEventsSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -46,43 +46,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Headers/MolocoEventsSDK-Swift.h</key>
 		<data>
-		+Go2F/7zTwaz9etybazv15ttYTc=
+		6h7k7B69LmCf4eDr/geyH/H70FU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Info.plist</key>
 		<data>
-		3lcczqfFTsDGiBG0cYYrET0m/v8=
+		wIwpMEbOi7gq48W9Tu0UgXt6auo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		G8HgZ40cnFn24lA1PjuO4HP2/uU=
+		600KjHp4HKX3CigjjSRVdW/CmFU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BGD6HPYa7myinKoAtM1j+WF9gXw=
+		xQ+pWDrM/MNnG46wSGjtaHQ/UjY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8RFfwyJPdIdTUpWCloF0PSIcuj0=
+		HATB6gdActxvALpYQ2psJ06LT2A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BGD6HPYa7myinKoAtM1j+WF9gXw=
+		xQ+pWDrM/MNnG46wSGjtaHQ/UjY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		G8HgZ40cnFn24lA1PjuO4HP2/uU=
+		600KjHp4HKX3CigjjSRVdW/CmFU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aKFE6SZfeEfhQyOqTFV6N/GLfCI=
+		wX7G+G0HRKoUZiMxA1IpLfd29LE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		AOD8uc/lnhVzx3Oj07bOMhbCIn8=
+		pm1WUt20D6hF8KNArwzMWVX5y38=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aKFE6SZfeEfhQyOqTFV6N/GLfCI=
+		wX7G+G0HRKoUZiMxA1IpLfd29LE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/module.modulemap</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/MolocoEventsSDK</key>
 		<data>
-		iEPJrgH4lj8K4U1s7DeeO1uZyLQ=
+		b1QscRP+brm9aOnjZO0YR2k5AmE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/MolocoEventsSDK_MolocoEventsSDK.bundle/Info.plist</key>
 		<data>
-		p7VjVfRV0iEA1x3m9dfzygM1n/s=
+		Y/N7RVQ1AK1K+//cqgrbj+uCAE8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/MolocoEventsSDK_MolocoEventsSDK.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -107,42 +107,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c/8NxgqnPheE+hzygox8/JOJHkIBNJ60fjv/+Y0wygI=
+			pM7w4lS8RqMJ98U7ujAbiyzGLZg6QeEUTA8/G3JqsDY=
 			</data>
 		</dict>
 		<key>ios-arm64/MolocoEventsSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UfRwTckmw3lzTL5j35dWq877Z63BdpD7/NBCaNSQoJc=
+			oDjle9V3UngPZtHCuNC9QRUR9nMipAsTxME6GYvheWg=
 			</data>
 		</dict>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			enkfgC0aS9pP/wqbDz4fDLwuXIjIbwnQl0ImFuPoP/c=
+			SbQBoavDRobARTbicPo8adP/9GqJmZMOBn6/2Nh4dFs=
 			</data>
 		</dict>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NeCLIF+M73XZY/jI93pMb10/F0TwDv4tlzz0Yb0CQNE=
+			myy0Z4uukftDe9GJ6f3WAbgtHZYxDRHcpeSGXSW8+No=
 			</data>
 		</dict>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jgqnJHfQOFsyWPMqgiHP/gl2p626IsMZMnFP/ATDuQE=
+			z7GjKgvw1gRSvTSOTFGpfdCg4H3V4EzQsm5mJat9Iug=
 			</data>
 		</dict>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NeCLIF+M73XZY/jI93pMb10/F0TwDv4tlzz0Yb0CQNE=
+			myy0Z4uukftDe9GJ6f3WAbgtHZYxDRHcpeSGXSW8+No=
 			</data>
 		</dict>
 		<key>ios-arm64/MolocoEventsSDK.framework/Modules/module.modulemap</key>
@@ -156,14 +156,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			niih42DNMfOfCIQcdxhMp9KQoCmkbTNfAeCEAQV6SNw=
+			4CHv3YthOKireZXEJEMWDvJvUoDkR34H7aLHLv3Sbv4=
 			</data>
 		</dict>
 		<key>ios-arm64/MolocoEventsSDK.framework/MolocoEventsSDK_MolocoEventsSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjwEdS3/8cHLxQksAbvbKRoIIFo6lblk7P7AiODTG80=
+			5GkJehr6dw6r8DJbjTa9JwMZF+29HaoRXpjOQ+aVP10=
 			</data>
 		</dict>
 		<key>ios-arm64/MolocoEventsSDK.framework/MolocoEventsSDK_MolocoEventsSDK.bundle/PrivacyInfo.xcprivacy</key>
@@ -177,70 +177,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePh3jC4kysJ4lh5KKIiKx1ThttWiqsOZTz3s+2BM0DU=
+			c2lgnoxS/fNSiDRfH1mbK6ZEmMicIwBOPAIasO8nKOU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rz0j8WvBQ/BI3K3Xe6L+w8ZcFeH2BnLFtq87xRZj9F4=
+			GkuYfQcU7thXWmOaCKKz8DYQDYyCbnpZk+AGMCDY0QU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h4NAuVWWY3iux95l3ZjmeGf2b2ifb6qp35SyoeA9HZM=
+			ymm6IjpW3hEoUtdCIp2oEclUtIWhkZWceFNXd5G8oQQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			llYUeTipu+xiydc98++9UMd2BywsMAP0yMYKAtMhDhA=
+			B7DEDY7e6SjmnM/WfcjwaLSW8e1TR2T7F2BVrPd4qUs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ch7S3eTI/aq5Z+/w2lgg9/wBeu/jf1QQE3lC0U5yfBQ=
+			pI07tDVNYUIKE8drqhdQhNO4XvhetfrOwtLopmmfqOc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			llYUeTipu+xiydc98++9UMd2BywsMAP0yMYKAtMhDhA=
+			B7DEDY7e6SjmnM/WfcjwaLSW8e1TR2T7F2BVrPd4qUs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h4NAuVWWY3iux95l3ZjmeGf2b2ifb6qp35SyoeA9HZM=
+			ymm6IjpW3hEoUtdCIp2oEclUtIWhkZWceFNXd5G8oQQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R0vENVj3B6LKVkF8qMdtPhu80e5wAB/HwbDumk81AgA=
+			AOHU4ntQOCbhJEGuJSfWbwDusCHoGv7b7goxQ6bMoZk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TyV0aZ+JycODdKgdD5RKcVgvhxwhpDNSk53BU2Fbc68=
+			+dw3PK1V70F6cGVE2ZFWRhL2QsrHnrmh4h1eZ0UqyvU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/MolocoEventsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R0vENVj3B6LKVkF8qMdtPhu80e5wAB/HwbDumk81AgA=
+			AOHU4ntQOCbhJEGuJSfWbwDusCHoGv7b7goxQ6bMoZk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/Modules/module.modulemap</key>
@@ -254,14 +254,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mbqNOcvKpthLV5/htq0kTICiHLHGVFSr1nrbmp0R2rU=
+			zeLlXgmD2Ccp45M6KKrbOZi6jvy5OpBXjHNAHdPVUCo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/MolocoEventsSDK_MolocoEventsSDK.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjwEdS3/8cHLxQksAbvbKRoIIFo6lblk7P7AiODTG80=
+			5GkJehr6dw6r8DJbjTa9JwMZF+29HaoRXpjOQ+aVP10=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/MolocoEventsSDK.framework/MolocoEventsSDK_MolocoEventsSDK.bundle/PrivacyInfo.xcprivacy</key>

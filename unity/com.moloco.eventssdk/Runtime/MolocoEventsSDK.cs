@@ -38,7 +38,7 @@ namespace Moloco {
         ///
         /// No-op outside iOS device builds (Editor, other platforms).
         /// </summary>
-        public static void InstallLogMirror() {
+        internal static void InstallLogMirror() {
 #if UNITY_IOS && !UNITY_EDITOR
             SdkLogReceiver.Install();
             _MolocoEventsSDK_installUnityLogMirror();
@@ -54,7 +54,7 @@ namespace Moloco {
         /// Returns a placeholder string outside iOS device builds (Editor,
         /// other platforms).
         /// </summary>
-        public static string CurrentStateForTesting() {
+        internal static string CurrentStateForTesting() {
 #if UNITY_IOS && !UNITY_EDITOR
             var ptr = _MolocoEventsSDK_currentState();
             return Marshal.PtrToStringAnsi(ptr) ?? "<empty>";
