@@ -142,6 +142,3 @@ A healthy launch shows `init success; state=ready, ingestionUrl=…` followed by
 
 For integration help, contact your Moloco representative.
 
-## License
-
-Proprietary. See [`LICENSE.md`](LICENSE.md).
