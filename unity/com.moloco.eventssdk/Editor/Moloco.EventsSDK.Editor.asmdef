@@ -1,0 +1,9 @@
+{
+  "name": "Moloco.EventsSDK.Editor",
+  "rootNamespace": "Moloco.Editor",
+  "references": [],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "autoReferenced": true
+}

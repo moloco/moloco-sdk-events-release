@@ -11,8 +11,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MolocoEventsSDK",
-            url: "https://moloco-ios-build.s3.amazonaws.com/events-sdk/0.1.0/MolocoEventsSDK-0.1.0.xcframework.zip",
-            checksum: "654f2b6dba6e4506d7c517c09b343d03052dde228c2b188e83659365bf836601"
+            url: "https://moloco-ios-build.s3.amazonaws.com/events-sdk/0.1.0/82b39bb7b49f15485b8e4713fb25bef25afa8fc6c411a8c40cf116ab0bed8f2b/MolocoEventsSDK-0.1.0.xcframework.zip",
+            checksum: "82b39bb7b49f15485b8e4713fb25bef25afa8fc6c411a8c40cf116ab0bed8f2b"
         ),
     ]
 )

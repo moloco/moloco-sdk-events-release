@@ -1,0 +1,5 @@
+framework module MolocoEventsSDK {
+  header "MolocoEventsSDK-Swift.h"
+  export *
+  requires objc
+}

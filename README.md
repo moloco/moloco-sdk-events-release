@@ -10,7 +10,7 @@ and custom events — directly with Moloco for improved campaign optimization.
 
 - iOS 13.0 or later at runtime (deployment target may be iOS 12.0; SDK no-ops on iOS 12)
 - Swift 5.9+
-- Xcode 14+
+- Xcode 15+ (built and verified with Xcode 26)
 
 ## Get your app key
 
@@ -42,8 +42,25 @@ pod 'MolocoEventsSDK', '~> 0.1'
 
 ### Unity (iOS)
 
-Integrate via the `com.moloco.eventssdk` UPM package — it vendors the
-`MolocoEventsSDK.xcframework` plus the C# wrapper.
+In Unity, open **Window → Package Manager → + → Add package from git URL** and enter:
+
+```
+https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.0
+```
+
+Or add it to `Packages/manifest.json`:
+
+```json
+"com.moloco.eventssdk": "https://github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.0"
+```
+
+The package vendors `MolocoEventsSDK.xcframework` plus the C# wrapper, and embeds the
+framework into your Xcode project on build. Requires Unity 2021.3+.
+
+Unity resolves git packages with your machine's `git`, so it must be able to
+authenticate to GitHub. If you use SSH keys rather than an HTTPS credential helper,
+use `ssh://git@github.com/moloco/moloco-sdk-events-release.git?path=/unity/com.moloco.eventssdk#0.1.0`
+instead.
 
 ## Usage
 

@@ -1,0 +1,9 @@
+{
+  "name": "Moloco.EventsSDK",
+  "rootNamespace": "Moloco",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "autoReferenced": true
+}

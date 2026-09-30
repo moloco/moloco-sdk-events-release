@@ -1,0 +1,1205 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MolocoEventsSDK",
+    "printedName": "MolocoEventsSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK",
+        "declAttributes": [
+          "WeakLinked",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MolocoClientMetrics",
+        "printedName": "MolocoClientMetrics",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MolocoEventsSDK",
+        "printedName": "MolocoEventsSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(appKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK(cm)initializeWithAppKey:",
+            "mangledName": "$s15MolocoEventsSDKAAC10initialize6appKeyySS_tFZ",
+            "moduleName": "MolocoEventsSDK",
+            "static": true,
+            "objc_name": "initializeWithAppKey:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trackEvent",
+            "printedName": "trackEvent(name:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK(cm)trackEventWithName:data:",
+            "mangledName": "$s15MolocoEventsSDKAAC10trackEvent4name4dataySS_SDySSypGSgtFZ",
+            "moduleName": "MolocoEventsSDK",
+            "static": true,
+            "objc_name": "trackEventWithName:data:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "_setLogHandlerForTesting",
+            "printedName": "_setLogHandlerForTesting(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK(cm)_setLogHandlerForTesting:",
+            "mangledName": "$s15MolocoEventsSDKAAC24_setLogHandlerForTestingyyySScSgFZ",
+            "moduleName": "MolocoEventsSDK",
+            "static": true,
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "_currentStateForTesting",
+            "printedName": "_currentStateForTesting()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK(cm)_currentStateForTesting",
+            "mangledName": "$s15MolocoEventsSDKAAC23_currentStateForTestingSSyFZ",
+            "moduleName": "MolocoEventsSDK",
+            "static": true,
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "_lastSerializedPayloadForTesting",
+            "printedName": "_lastSerializedPayloadForTesting()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK(cm)_lastSerializedPayloadForTesting",
+            "mangledName": "$s15MolocoEventsSDKAAC32_lastSerializedPayloadForTestingSSyFZ",
+            "moduleName": "MolocoEventsSDK",
+            "static": true,
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MolocoEventsSDK",
+                "printedName": "MolocoEventsSDK.MolocoEventsSDK",
+                "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK(im)init",
+            "mangledName": "$s15MolocoEventsSDKAACABycfc",
+            "moduleName": "MolocoEventsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MolocoEventsSDK@objc(cs)MolocoEventsSDK",
+        "mangledName": "$s15MolocoEventsSDKAAC",
+        "moduleName": "MolocoEventsSDK",
+        "objc_name": "MolocoEventsSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MetricKit",
+        "printedName": "MetricKit",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK",
+        "declAttributes": [
+          "WeakLinked",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MolocoClientMetrics",
+        "printedName": "MolocoClientMetrics",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MolocoEventsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSLock",
+        "printedName": "NSLock",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "withLock",
+            "printedName": "withLock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6NSLockC15MolocoEventsSDKE8withLockyxxyKXEKlF",
+            "mangledName": "$sSo6NSLockC15MolocoEventsSDKE8withLockyxxyKXEKlF",
+            "moduleName": "MolocoEventsSDK",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Rethrows",
+              "Inlinable",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSLock",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSLock",
+        "declAttributes": [
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/.build\/xcframework\/dd-ios\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MolocoEventsSDK\/IntermediateBuildFilesPath\/MolocoEventsSDK.build\/Release-iphoneos\/MolocoEventsSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 33,
+      "value": "\"MolocoEventsSDK_MolocoEventsSDK\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/.build\/xcframework\/dd-ios\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MolocoEventsSDK\/IntermediateBuildFilesPath\/MolocoEventsSDK.build\/Release-iphoneos\/MolocoEventsSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "Array",
+      "offset": 987,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/.build\/xcframework\/dd-ios\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MolocoEventsSDK\/IntermediateBuildFilesPath\/MolocoEventsSDK.build\/Release-iphoneos\/MolocoEventsSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/.build\/xcframework\/dd-ios\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MolocoEventsSDK\/IntermediateBuildFilesPath\/MolocoEventsSDK.build\/Release-iphoneos\/MolocoEventsSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1666,
+      "length": 61,
+      "value": "\"unable to find bundle named MolocoEventsSDK_MolocoEventsSDK\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Core\/SdkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 7,
+      "value": "\"0.1.0\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Core\/SdkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 76,
+      "value": "\"https:\/\/sdkopmetrics-us.dsp-api.moloco.com\/v1\/sdk\/send\/metrics\/operational\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Core\/SdkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 1190,
+      "length": 27,
+      "value": "\"com.moloco.eventssdk.core\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Core\/SdkCore.swift",
+      "kind": "StringLiteral",
+      "offset": 8288,
+      "length": 46,
+      "value": "\"https:\/\/advertiser-sdkapi.dsp-api.moloco.com\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/ConfigStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2504,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/ConfigStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2556,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/ConfigStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2605,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/ConfigStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2656,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/ConfigStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2715,
+      "length": 6,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/ConfigStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2765,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/ConfigStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2855,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/ConfigStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/EventQueue.swift",
+      "kind": "Array",
+      "offset": 876,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/EventQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 950,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 22,
+      "value": "\"com.moloco.eventssdk\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 5,
+      "value": "\"sdk\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/Proto3JsonMetricsNetworkConnection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1950,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/SentryEnvelopeEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 12851,
+      "length": 299,
+      "value": "[(1, \"EXC_BAD_ACCESS\"), (2, \"EXC_BAD_INSTRUCTION\"), (3, \"EXC_ARITHMETIC\"), (4, \"EXC_EMULATION\"), (5, \"EXC_SOFTWARE\"), (6, \"EXC_BREAKPOINT\"), (7, \"EXC_SYSCALL\"), (8, \"EXC_MACH_SYSCALL\"), (9, \"EXC_RPC_ALERT\"), (10, \"EXC_CRASH\"), (11, \"EXC_RESOURCE\"), (12, \"EXC_GUARD\"), (13, \"EXC_CORPSE_NOTIFY\")]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/SentryEnvelopeEncoder.swift",
+      "kind": "Dictionary",
+      "offset": 13203,
+      "length": 504,
+      "value": "[(1, \"SIGHUP\"), (2, \"SIGINT\"), (3, \"SIGQUIT\"), (4, \"SIGILL\"), (5, \"SIGTRAP\"), (6, \"SIGABRT\"), (7, \"SIGEMT\"), (8, \"SIGFPE\"), (9, \"SIGKILL\"), (10, \"SIGBUS\"), (11, \"SIGSEGV\"), (12, \"SIGSYS\"), (13, \"SIGPIPE\"), (14, \"SIGALRM\"), (15, \"SIGTERM\"), (16, \"SIGURG\"), (17, \"SIGSTOP\"), (18, \"SIGTSTP\"), (19, \"SIGCONT\"), (20, \"SIGCHLD\"), (21, \"SIGTTIN\"), (22, \"SIGTTOU\"), (23, \"SIGIO\"), (24, \"SIGXCPU\"), (25, \"SIGXFSZ\"), (26, \"SIGVTALRM\"), (27, \"SIGPROF\"), (28, \"SIGWINCH\"), (29, \"SIGINFO\"), (30, \"SIGUSR1\"), (31, \"SIGUSR2\")]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Infra\/UserDefaultsStore.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 22,
+      "value": "\"com.moloco.eventssdk\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Public\/MolocoEventsSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1526,
+      "length": 29,
+      "value": "\"com.moloco.eventssdk.facade\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/CrashReporterService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 646,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/CrashReporterService.swift",
+      "kind": "StringLiteral",
+      "offset": 755,
+      "length": 17,
+      "value": "\"MolocoEventsSDK\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 1140,
+      "length": 10,
+      "value": "\"http_5xx\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 1178,
+      "length": 10,
+      "value": "\"http_429\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 18,
+      "value": "\"connection_error\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 1700,
+      "length": 17,
+      "value": "\"invalid_app_key\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 1850,
+      "length": 17,
+      "value": "\"retry_exhausted\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 1899,
+      "length": 14,
+      "value": "\"invalid_name\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 1970,
+      "length": 12,
+      "value": "\"queue_full\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 2018,
+      "length": 18,
+      "value": "\"preinit_overflow\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 2071,
+      "length": 18,
+      "value": "\"no_ingestion_url\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2871,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2876,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3147,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "Array",
+      "offset": 3203,
+      "length": 104,
+      "value": "[\"install\", \"session\", \"session_start\", \"session_end\", \"in_app_purchase\", \"init_complete\"]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 3377,
+      "length": 30,
+      "value": "\"^[a-zA-Z][a-zA-Z0-9_]{0,63}$\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "Array",
+      "offset": 4228,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 14466,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 14965,
+      "length": 51,
+      "value": "\"event '%@' queued (type=%@); drain-queue=\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/EventService.swift",
+      "kind": "StringLiteral",
+      "offset": 15015,
+      "length": 34,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/InitService.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 15,
+      "value": "\"^[^:]+:[^:]+$\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/InstallService.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 15,
+      "value": "\"install_fired\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/InstallService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 276,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/OpsMetricsService.swift",
+      "kind": "Dictionary",
+      "offset": 2929,
+      "length": 21,
+      "value": "[(\"sdk\", \"adv-events\")]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/PurchaseService.swift",
+      "kind": "Dictionary",
+      "offset": 695,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/PurchaseService.swift",
+      "kind": "Dictionary",
+      "offset": 821,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/PurchaseService.swift",
+      "kind": "Dictionary",
+      "offset": 1193,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/PurchaseService.swift",
+      "kind": "Dictionary",
+      "offset": 1359,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/PurchaseService.swift",
+      "kind": "Array",
+      "offset": 1566,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/PurchaseService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1850,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/PurchaseService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2004,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/PurchaseService.swift",
+      "kind": "Array",
+      "offset": 6236,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/SessionService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 829,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Services\/SessionService.swift",
+      "kind": "StringLiteral",
+      "offset": 886,
+      "length": 36,
+      "value": "\"com.moloco.eventssdk.session.timer\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Wire\/EventWireTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 87,
+      "length": 9,
+      "value": "\"INSTALL\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Wire\/EventWireTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 116,
+      "length": 9,
+      "value": "\"SESSION\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Wire\/EventWireTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 17,
+      "value": "\"IN_APP_PURCHASE\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Wire\/EventWireTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 15,
+      "value": "\"INIT_COMPLETE\""
+    },
+    {
+      "filePath": "\/Users\/seoyoung.kang\/workspace\/moloco-sdk-events-ios\/Sources\/MolocoEventsSDK\/Wire\/EventWireTypes.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 8,
+      "value": "\"CUSTOM\""
+    }
+  ]
+}
