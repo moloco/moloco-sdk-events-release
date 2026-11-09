@@ -1,9 +1,21 @@
 {
   "name": "Moloco.EventsSDK",
   "rootNamespace": "Moloco",
-  "references": [],
+  "references": ["Unity.Purchasing"],
   "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": false,
-  "autoReferenced": true
+  "autoReferenced": true,
+  "versionDefines": [
+    {
+      "name": "com.unity.purchasing",
+      "expression": "[5.0,6.0)",
+      "define": "MOLOCO_EVENTS_SDK_IAP_5"
+    },
+    {
+      "name": "com.unity.purchasing",
+      "expression": "[5.4,6.0)",
+      "define": "MOLOCO_EVENTS_SDK_IAP_5_4"
+    }
+  ]
 }

@@ -5,10 +5,12 @@ using System.Text;
 using UnityEngine;
 
 namespace Moloco {
-    public static class MolocoEventsSDK {
+    public static partial class MolocoEventsSDK {
 #if UNITY_IOS && !UNITY_EDITOR
         [DllImport("__Internal")] private static extern void _MolocoEventsSDK_initialize(string appKey);
         [DllImport("__Internal")] private static extern void _MolocoEventsSDK_trackEvent(string name, string dataJson);
+        [DllImport("__Internal")] private static extern void _MolocoEventsSDK_trackPurchase(
+            string productId, string price, string currency, string transactionId, int quantity);
         [DllImport("__Internal")] private static extern void _MolocoEventsSDK_installUnityLogMirror();
         [DllImport("__Internal")] private static extern System.IntPtr _MolocoEventsSDK_currentState();
 #endif
@@ -24,6 +26,29 @@ namespace Moloco {
             string json = data != null ? DictToJson(data) : null;
             _MolocoEventsSDK_trackEvent(name, json);
 #endif
+        }
+
+        /// <summary>
+        /// Reports a completed in-app purchase as an <c>in_app_purchase</c> event.
+        /// The SDK captures the purchases it observes through StoreKit. On iOS 15+ Unity
+        /// IAP 5 uses StoreKit 2, whose purchases may reach only the app, so report them
+        /// here (or pass the Unity IAP 5 <c>Order</c> to <c>TrackPurchase(Order)</c>).
+        /// A purchase reported here and also captured automatically is sent once,
+        /// matched by <paramref name="transactionId"/>.
+        /// </summary>
+        /// <param name="price">Price of one unit, in <paramref name="currency"/>.</param>
+        /// <param name="currency">ISO 4217 currency code, for example "USD".</param>
+        public static void TrackPurchase(string productId, decimal price, string currency, string transactionId, int quantity = 1) {
+#if UNITY_IOS && !UNITY_EDITOR
+            // Empty, not null: the SDK then validates and logs (a missing currency is sent
+            // without one) instead of the bridge dropping the purchase silently.
+            _MolocoEventsSDK_trackPurchase(productId ?? "", FormatPrice(price), currency ?? "", transactionId ?? "", quantity);
+#endif
+        }
+
+        // Crosses the native bridge as text so the decimal arrives exact.
+        internal static string FormatPrice(decimal price) {
+            return price.ToString(CultureInfo.InvariantCulture);
         }
 
         /// <summary>

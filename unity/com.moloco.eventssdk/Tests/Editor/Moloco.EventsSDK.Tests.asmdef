@@ -1,0 +1,35 @@
+{
+  "name": "Moloco.EventsSDK.Tests",
+  "rootNamespace": "Moloco",
+  "references": [
+    "Moloco.EventsSDK",
+    "Unity.Purchasing",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [
+    {
+      "name": "com.unity.purchasing",
+      "expression": "[5.1,6.0)",
+      "define": "MOLOCO_EVENTS_SDK_IAP_5"
+    },
+    {
+      "name": "com.unity.purchasing",
+      "expression": "[5.4,6.0)",
+      "define": "MOLOCO_EVENTS_SDK_IAP_5_4"
+    },
+    {
+      "name": "com.unity.purchasing",
+      "expression": "[5.4.2,6.0)",
+      "define": "MOLOCO_EVENTS_SDK_IAP_5_4_2"
+    }
+  ],
+  "noEngineReferences": false
+}

@@ -15,6 +15,11 @@
 @interface MolocoEventsSDK : NSObject
 + (void)initializeWithAppKey:(NSString * _Nonnull)appKey;
 + (void)trackEventWithName:(NSString * _Nonnull)name data:(NSDictionary * _Nullable)data;
++ (void)trackPurchaseWithProductId:(NSString * _Nonnull)productId
+                             price:(NSDecimalNumber * _Nonnull)price
+                          currency:(NSString * _Nonnull)currency
+                     transactionId:(NSString * _Nonnull)transactionId
+                          quantity:(NSInteger)quantity;
 + (NSString * _Nonnull)_currentStateForTesting;
 @end
 
@@ -55,6 +60,27 @@ void _MolocoEventsSDK_trackEvent(const char* name, const char* dataJson) {
     }
     if (@available(iOS 13.0, *)) {
         [MolocoEventsSDK trackEventWithName:eventName data:data];
+    }
+}
+
+/// `price` arrives as an invariant-culture decimal string (C# `decimal`) so it
+/// stays exact. An unparseable price becomes NaN, which the SDK drops.
+void _MolocoEventsSDK_trackPurchase(const char* productId, const char* price, const char* currency,
+                                    const char* transactionId, int quantity) {
+    if (productId == NULL || price == NULL || currency == NULL || transactionId == NULL) return;
+    NSString* product = [NSString stringWithUTF8String:productId];
+    NSString* priceString = [NSString stringWithUTF8String:price];
+    NSString* currencyCode = [NSString stringWithUTF8String:currency];
+    NSString* transaction = [NSString stringWithUTF8String:transactionId];
+    if (product == nil || priceString == nil || currencyCode == nil || transaction == nil) return;
+    NSDecimalNumber* amount = [NSDecimalNumber decimalNumberWithString:priceString
+                                                                locale:@{NSLocaleDecimalSeparator: @"."}];
+    if (@available(iOS 13.0, *)) {
+        [MolocoEventsSDK trackPurchaseWithProductId:product
+                                              price:amount
+                                           currency:currencyCode
+                                      transactionId:transaction
+                                           quantity:quantity];
     }
 }
 
